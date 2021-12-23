@@ -12,6 +12,9 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 import java.util.UUID;
 
+/**
+ * This class is responsible to test all methods of {@link BeerController} class.
+ */
 @WebMvcTest(BeerController.class)
 class BeerControllerTest {
     @Autowired
